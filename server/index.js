@@ -9,7 +9,10 @@ const port = process.env.PORT || 5001
 
 app.use(express.json())
 app.use(morgan('dev'))
-app.use(cors())
+app.use(cors({
+    origin: 'https://codeverification-task-back.vercel.app/', 
+    credentials: true,
+  }));
 
 const generationRoute = require('./routes/codegenerator')
 const verificationRoute = require('./routes/codeverification')
