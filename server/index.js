@@ -11,6 +11,7 @@ app.use(express.json())
 app.use(morgan('dev'))
 app.use(cors({
     origin: 'https://codeverification-task-front.vercel.app/', 
+    methods: ["GET", "POST"],
     credentials: true,
   }));
 
