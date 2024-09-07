@@ -10,7 +10,7 @@ const port = process.env.PORT || 5001
 app.use(express.json())
 app.use(morgan('dev'))
 app.use(cors({
-    origin: 'https://codeverification-task-back.vercel.app/', 
+    origin: 'https://codeverification-task-front.vercel.app/', 
     credentials: true,
   }));
 
