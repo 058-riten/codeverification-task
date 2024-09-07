@@ -1,0 +1,67 @@
+.generator-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  .generated-code-display {
+    width: 200px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f0f0f0;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  
+  p.generated {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  
+  p.placeholder {
+    font-size: 1.2rem;
+    text-align: center;
+    color: #666;
+  }
+  
+  button.generate-button {
+    padding: 10px 20px;
+    background-color: #150055;
+    color: white;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 20px;
+  }
+  
+  button.generate-button:disabled {
+    background-color: #999;
+    cursor: not-allowed;
+  }
+  
+  button.generate-button:hover:enabled {
+    background-color: #120044;
+  }
+  
+  .verification-link {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  .verification-link:hover {
+    background-color: #0056b3;
+  }
+  
